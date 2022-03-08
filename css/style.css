@@ -3,7 +3,23 @@
 
 
 * { 
+    box-sizing: border-box;
     font-family: 'Open Sans', sans setrif ;
 }
+header {
+    background-color:  #4D41C0;
+    color: white;
     
-   
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+    
+ 
